@@ -1,3 +1,14 @@
-# mern-calendar
+# mern-calendar APP
 
 Aplicación de calendario con stack MERN React - Redux
+
+## Development pasos
+
+1. Renombrar el archivo .env.template por .env
+2. Hacer los cambios respectivos en las variables de entorno (.env)
+
+```
+
+VITE_API_URL=http://localhost:4000/api
+
+```
