@@ -34,7 +34,6 @@ export const useCalendarStore = () => {
     
             //* creando
             const { data } = await calendarApi.post( '/events', calendarEvent );
-            console.log(data)
             dispatch( onAddNewEvent( { ...calendarEvent, id: data.Event.id, user  }) );
             
         } catch (error) {
